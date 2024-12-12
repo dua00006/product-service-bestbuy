@@ -5,73 +5,74 @@ pub fn fetch_products(_settings: &Settings) -> Vec<Product> {
     vec![
         Product {
             id: 1,
-            name: "Contoso Catnip's Friend".to_string(),
-            price: 9.99,
-            description: "Watch your feline friend embark on a fishing adventure with Contoso Catnip's Friend toy. Packed with irresistible catnip and dangling fish lure.".to_string(),
-            image: "/catnip.jpg".to_string()
+            name: "Samsung 55\" 4K Smart TV".to_string(),
+            price: 499.99,
+            description: "Experience stunning 4K UHD resolution and smart streaming capabilities with Samsung's 55-inch Smart TV.".to_string(),
+            image: "/samsung_tv.jpg".to_string(),
         },
         Product {
             id: 2,
-            name: "Salty Sailor's Squeaky Squid".to_string(),
-            price: 6.99,
-            description: "Let your dog set sail with the Salty Sailor's Squeaky Squid. This interactive toy provides hours of fun, featuring multiple squeakers and crinkle tentacles.".to_string(),
-            image: "/squid.jpg".to_string()
+            name: "Apple MacBook Pro 14\" M2".to_string(),
+            price: 1999.99,
+            description: "The latest Apple MacBook Pro with the M2 chip offers powerful performance and a stunning Retina display.".to_string(),
+            image: "/macbook_pro.jpg".to_string(),
         },
         Product {
             id: 3,
-            name: "Mermaid's Mice Trio".to_string(),
-            price: 12.99,
-            description: "Entertain your kitty with the Mermaid's Mice Trio. These adorable plush mice are dressed as mermaids and filled with catnip to captivate their curiosity.".to_string(),
-            image: "/mermaid.jpg".to_string()
+            name: "Bose QuietComfort 45 Headphones".to_string(),
+            price: 329.99,
+            description: "Immerse yourself in music with Bose's noise-canceling QuietComfort 45 headphones, perfect for travel and daily use.".to_string(),
+            image: "/bose_headphones.jpg".to_string(),
         },
         Product {
             id: 4,
-            name: "Ocean Explorer's Puzzle Ball".to_string(),
-            price: 11.99,
-            description: "Challenge your pet's problem-solving skills with the Ocean Explorer's Puzzle Ball. This interactive toy features hidden compartments and treats, providing mental stimulation and entertainment.".to_string(),
-            image: "/ocean.jpg".to_string()
+            name: "Sony PlayStation 5 Console".to_string(),
+            price: 499.99,
+            description: "Get the ultimate gaming experience with Sony's PlayStation 5, featuring ultra-fast loading and stunning graphics.".to_string(),
+            image: "/ps5.jpg".to_string(),
         },
         Product {
             id: 5,
-            name: "Pirate Parrot Teaser Wand".to_string(),
-            price: 8.99,
-            description: "Engage your cat in a playful pursuit with the Pirate Parrot Teaser Wand. The colorful feathers and jingling bells mimic the mischievous charm of a pirate's parrot.".to_string(),
-            image: "/pirate.jpg".to_string()
+            name: "Dyson V15 Detect Vacuum".to_string(),
+            price: 749.99,
+            description: "Keep your home clean with the Dyson V15 Detect Vacuum, featuring laser detection and powerful suction.".to_string(),
+            image: "/dyson_vacuum.jpg".to_string(),
         },
         Product {
             id: 6,
-            name: "Seafarer's Tug Rope".to_string(),
-            price: 14.99,
-            description: "Tug-of-war meets nautical adventure with the Seafarer's Tug Rope. Made from marine-grade rope, it's perfect for interactive play and promoting dental health in dogs.".to_string(),
-            image: "/tug.jpg".to_string()
+            name: "KitchenAid Artisan Stand Mixer".to_string(),
+            price: 449.99,
+            description: "Enhance your baking with the KitchenAid Artisan Stand Mixer, a versatile and durable kitchen companion.".to_string(),
+            image: "/kitchenaid_mixer.jpg".to_string(),
         },
         Product {
             id: 7,
-            name: "Seashell Snuggle Bed".to_string(),
-            price: 19.99,
-            description: "Give your furry friend a cozy spot to curl up with the Seashell Snuggle Bed. Shaped like a seashell, this plush bed provides comfort and relaxation for cats and small dogs.".to_string(),
-            image: "/bed.jpg".to_string()
+            name: "Ring Video Doorbell 4".to_string(),
+            price: 199.99,
+            description: "Monitor your home and answer your door remotely with the Ring Video Doorbell 4, featuring HD video and motion detection.".to_string(),
+            image: "/ring_doorbell.jpg".to_string(),
         },
         Product {
             id: 8,
-            name: "Nautical Knot Ball".to_string(),
-            price: 7.99,
-            description: "Unleash your dog's inner sailor with the Nautical Knot Ball. Made from sturdy ropes, it's perfect for fetching, tugging, and satisfying their chewing needs.".to_string(),
-            image: "/knot.jpg".to_string()
+            name: "Canon EOS R6 Mirrorless Camera".to_string(),
+            price: 2499.99,
+            description: "Capture breathtaking photos and videos with the Canon EOS R6, offering exceptional image quality and versatility.".to_string(),
+            image: "/canon_camera.jpg".to_string(),
         },
         Product {
             id: 9,
-            name: "Contoso Claw's Crabby Cat Toy".to_string(),
-            price: 3.99,
-            description: "Watch your cat go crazy for Contoso Claw's Crabby Cat Toy. This crinkly and catnip-filled toy will awaken their hunting instincts and provide endless entertainment.".to_string(),
-            image: "/crabby.jpg".to_string()
+            name: "Fitbit Charge 5 Fitness Tracker".to_string(),
+            price: 179.99,
+            description: "Track your health and fitness goals with the Fitbit Charge 5, featuring heart rate monitoring and built-in GPS.".to_string(),
+            image: "/fitbit_charge5.jpg".to_string(),
         },
         Product {
             id: 10,
-            name: "Ahoy Doggy Life Jacket".to_string(),
-            price: 5.99,
-            description: "Ensure your furry friend stays safe during water adventures with the Ahoy Doggy Life Jacket. Designed for dogs, this flotation device offers buoyancy and visibility in style.".to_string(),
-            image: "/lifejacket.jpg".to_string()
-        }
+            name: "Ninja Foodi Air Fryer".to_string(),
+            price: 149.99,
+            description: "Cook healthier meals with the Ninja Foodi Air Fryer, offering multiple cooking functions and rapid air technology.".to_string(),
+            image: "/ninja_airfryer.jpg".to_string(),
+        },
     ]
 }
+
